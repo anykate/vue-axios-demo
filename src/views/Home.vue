@@ -1,14 +1,18 @@
 <script setup>
 import Comments from '@/components/Comments.vue'
 import Posts from '@/components/Posts.vue'
-import { ref } from 'vue'
+import { onUnmounted, ref } from 'vue'
 
 const radioCheck = ref('')
-const apiData = ref([])
+let apiData = ref([])
 
 const getAPIData = (data) => {
     apiData.value = data
 }
+
+onUnmounted(() => {
+    apiData = ref(null)
+})
 </script>
 
 <template>

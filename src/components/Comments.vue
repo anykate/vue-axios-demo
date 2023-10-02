@@ -20,7 +20,7 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
-    comments = ref([])
+    comments = ref(null)
 })
 </script>
 

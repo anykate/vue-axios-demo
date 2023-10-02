@@ -20,7 +20,7 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
-    posts = ref([])
+    posts = ref(null)
 })
 </script>
 
