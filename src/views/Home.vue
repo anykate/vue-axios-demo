@@ -21,7 +21,7 @@ const getAPIData = (data) => {
         value="posts"
         v-model="radioCheck"
     />
-    <label for="posts">Get Posts</label><br />
+    <label for="posts"> Get Posts</label><br />
 
     <input
         type="radio"
@@ -30,7 +30,7 @@ const getAPIData = (data) => {
         value="comments"
         v-model="radioCheck"
     />
-    <label for="comments">Get Comments</label><br />
+    <label for="comments"> Get Comments</label><br />
 
     <div>
         <br />
