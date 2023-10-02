@@ -24,10 +24,4 @@ onUnmounted(() => {
 })
 </script>
 
-<template>
-    <div>
-        <br />
-        <hr />
-        <br />
-    </div>
-</template>
+<template></template>

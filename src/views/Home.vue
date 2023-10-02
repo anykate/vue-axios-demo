@@ -32,6 +32,12 @@ const getAPIData = (data) => {
     />
     <label for="comments">Get Comments</label><br />
 
+    <div>
+        <br />
+        <hr />
+        <br />
+    </div>
+
     <Posts
         v-if="radioCheck === 'posts'"
         @emit-posts="getAPIData"
