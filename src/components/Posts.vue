@@ -24,4 +24,6 @@ onUnmounted(() => {
 })
 </script>
 
-<template></template>
+<template>
+    <h3>Posts</h3>
+</template>
